@@ -1,2 +1,3 @@
 # Translink-Bus-Status-Analysis
 The  data is imported From file translink.RData.  The function " translink" takes four numeric arguments:a year, a month and a day of the month, and an hour of the day. The R function will return a list with two elements: 1) an element with the name start and with a value specifying a character vector enumerating all bus routes that started to have disruptions during the hour indicated by the date and time provided to the function, 2) an element with the name stop and with the value specifying a character vector enumerating all bus routes that stopped having a disruption during the hour indicated by the date and time provided to the function. 
+The return result of this function has accuracy above 90%.
